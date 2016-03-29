@@ -1,7 +1,7 @@
 Puffin frontend
 ---
 
-** Setup **
+**Setup**
 
 1. Install Nodejs version 5.xx
 2. clone repository
@@ -9,4 +9,6 @@ Puffin frontend
 4. "npm install" - this will install the modules specified in package.js
 5. "npm start" - this will start the dev server: http://localhost:8080
 
-6. "npm run prod" - packs up the webapp and output it to /dist folder
+**Build**
+
+"npm run prod" - packs the webapp and output it to /dist folder
