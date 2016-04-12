@@ -44,6 +44,13 @@ public class User {
         this.enabled = enabled;
     }
 
+    public User(String username, String password, boolean enabled, Set<UserRole> userRoles) {
+        this.username = username;
+        this.password = password;
+        this.enabled = enabled;
+        this.userRoles = userRoles;
+    }
+
     public User(int id) {
         this.id = id;
     }
@@ -87,12 +94,4 @@ public class User {
     public void setUserRoles(Set<UserRole> userRoles) {
         this.userRoles = userRoles;
     }
-
-    public User(String username, String password, boolean enabled, Set<UserRole> userRoles) {
-        this.username = username;
-        this.password = password;
-        this.enabled = enabled;
-        this.userRoles = userRoles;
-    }
-
 }
