@@ -12,3 +12,16 @@ Puffin frontend
 **Build**
 
 "npm run prod" - packs the webapp and output it to /dist folder
+
+
+**Atom.io IDE packages**
+linter
+linter-eslint
+language-babel
+
+Optional:
+autocomplete-modules
+docblockr
+open-recent
+pigments
+atom-beautify
