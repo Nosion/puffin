@@ -19,9 +19,13 @@ linter
 linter-eslint
 language-babel
 
-Optional:
+Optional but neat:
 autocomplete-modules
 docblockr
 open-recent
 pigments
 atom-beautify
+
+
+**Node packages**
+npm install -g npm-check-updates  //Documentation @ https://github.com/tjunnone/npm-check-updates
